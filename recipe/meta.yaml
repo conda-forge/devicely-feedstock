@@ -1,5 +1,5 @@
 {% set name = "devicely" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/devicely-{{ version }}.tar.gz
-  sha256: c910e699e79940f97b182c98b88980ba16fd5cf89cfd8c6e01b87dc7ae2e1c3d
+  sha256: 542983ecd3aed8b07f3c04ee953733fc3ac2aaf4e74f1ce034b789ada5bfc7bd
 
 build:
   number: 0
